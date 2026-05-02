@@ -1,0 +1,37 @@
+Ask something: what does debales ai do?
+[router] route selected: rag
+[rag] searching Debales knowledge base...
+[rag] retrieved 5 document chunks
+[final] generating final answer from retrieved context...
+[final] answer generated
+
+AI: Debales AI is an Autonomous Logistics Automation Platform that provides AI Agents for the supply chain. Based on the provided context, it does the following:
+
+*   **Automates Core Logistics Tasks**: It automates sales and prospecting support, quoting, load building, customer service, and orchestration for Freight Brokers and 3PLs.
+*   **Manages Customer Communication**: It handles customer communication across channels like email, chat, SMS, and WhatsApp.
+*   **Streamlines Operations**: It automates order intake, delivery coordination, and fulfillment processes, tracking orders and providing customers with dispatch and ETA updates.
+*   **Provides Support Tools**: It includes a Messaging AI Agent that sends instant updates via messaging platforms and a Debales Co-Assistant that empowers human agents with real-time information and suggestions for complex issues.
+
+Ask something: what is the capital of India?
+[router] route selected: serp
+[serp] rewriting query for Google search...
+[serp] searching Google for: What is the capital city of India?
+[serp] search complete
+[final] generating final answer from retrieved context...
+[final] answer generated
+
+AI: The capital of India is **New Delhi**. It is part of the National Capital Territory of Delhi (NCT) and serves as the seat of all three branches of the Indian government.
+
+Ask something: how deables ai is different from openai
+[router] route selected: both
+[both] searching Debales knowledge base and Google...
+[both:rag] searching Debales knowledge base...
+[both:rag] retrieved 5 document chunks
+[both:serp] rewriting query for Google search...
+[both:serp] searching Google for: What is the difference between Deables AI and OpenAI?
+[both:serp] search complete
+[both] combined RAG and SERP context
+[final] generating final answer from retrieved context...
+[final] answer generated
+
+AI: I don't know. The provided context describes Debales AI as a platform for logistics, e-commerce, and fulfillment automation (e.g., order tracking, load planning, customer service agents), while OpenAI is a general AI research and deployment company known for models like GPT. However, no document directly compares the two or outlines how Debales AI differs from OpenAI.

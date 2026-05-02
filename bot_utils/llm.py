@@ -6,7 +6,7 @@ load_dotenv()
 
 # chat model is used by routing, query rewriting, and final answers.
 llm = HuggingFaceEndpoint(
-    repo_id="meta-llama/Meta-Llama-3-8B-Instruct",  
+    repo_id="deepseek-ai/DeepSeek-V4-Pro",  
     task="text-generation",
     huggingfacehub_api_token=os.getenv("HUGGINGFACEHUB_API_TOKEN"),
 )
